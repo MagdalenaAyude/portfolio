@@ -1,6 +1,6 @@
 # Portfolio Profesional — Magdalena Daniela Ayude 🚀
 
-¡Bienvenido/a a mi repositorio! Este es mi portfolio personal como **Desarrolladora Frontend Jr y Maquetadora Web**. Un espacio diseñado bajo una estética minimalista y profesional para dar a conocer mis proyectos, habilidades y enfoque de desarrollo.
+Este es mi portfolio personal como **Desarrolladora Frontend Jr**. Un espacio diseñado bajo una estética minimalista y profesional para dar a conocer mis proyectos, habilidades y enfoque de desarrollo.
 
 ---
 
