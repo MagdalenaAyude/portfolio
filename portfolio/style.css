@@ -52,8 +52,8 @@ body{
   color: var(--accent);
 }
 .nav-links a.nav-github {
-  color: var(--accent); /* Usa tu dorado de acento para diferenciarse */
-  font-weight: 600;     /* Un poquito más de grosor para darle presencia */
+  color: var(--accent); 
+  font-weight: 600;     
   border-bottom: 1px solid transparent;
   padding-bottom: 2px;
   transition: all 0.3s ease;
@@ -147,7 +147,7 @@ body{
 }
 .stack-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive sin romper la grilla */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
   gap: 30px;
 }
 .stack-card{
