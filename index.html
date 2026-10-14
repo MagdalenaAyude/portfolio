@@ -8,8 +8,10 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <meta name="description"content="Portfolio de Magdalena Daniela Ayude, desarrolladora Frontend. Desarrollo sitios y experiencias web funcionales, responsive y visualmente atractivas.">
   <meta name="keywords"content="Frontend Developer, Desarrollo Web, Portfolio, HTML, CSS, JavaScript, Firebase, Diseño Web, Magdalena Ayude">
   <meta name="author" content="Magdalena Daniela Ayude">  
@@ -18,12 +20,18 @@
   <meta property="og:description" content="Portfolio de Magdalena Daniela Ayude, desarrolladora frontend especializada en crear experiencias digitales modernas y accesibles.">
   <meta property="og:image" content="https://magdalenadanielaayude.netlify.app/">  
   <meta property="og:url" content="https://magdalenadanielaayude.netlify.app/">
+ 
+
+
 </head>
 
 <body>
 
   <header class="header">
     <nav class="navbar">
+    <button class="menu-toggle" aria-label="Abrir menú">
+    <i class="fa-solid fa-bars"></i>
+  </button>
       <ul class="nav-links">
         <li><a href="#about">Sobre mí</a></li>
         <li><a href="#stack">Stack</a></li>
@@ -79,13 +87,18 @@
           <h3>JavaScript</h3>
           <p>Implementación de funcionalidades, interacciones y experiencias dinámicas mediante manipulación del DOM y gestión de eventos.</p>
         </article>
+
+        <article class="stack-card">
+        <h3>Tailwind CSS</h3>
+        <p>Construcción y personalización de interfaces mediante clases de utilidad para agilizar el desarrollo y mantener diseños consistentes.</p>
+        </article>
         
-      <article class="stack-card"> 
-      <h3>Firebase</h3> 
-      <p>Integración de bases de datos y servicios para incorporar funcionalidades dinámicas en aplicaciones web.</p> 
-      </article> 
-      </div> 
-      </section>
+        <article class="stack-card"> 
+        <h3>Firebase</h3> 
+        <p>Integración de bases de datos y servicios para incorporar funcionalidades dinámicas en aplicaciones web.</p> 
+        </article> 
+        </div> 
+        </section>
 
    <section id="projects" class="section-layout projects">
 
@@ -105,20 +118,30 @@
         <span class="project-number">PROYECTO 01</span>
 
         <h3>Villa Mitre</h3>
-        <p>Plataforma web desarrollada para visibilizar todo lo que se puede encontrar en Villa Mitre: comercios, profesionales, emprendimientos, actividades, servicios y propuestas del barrio. El proyecto reúne esta información en un mismo espacio digital, facilitando el descubrimiento y el acceso a opciones locales. Cuenta con una interfaz responsive, funcionalidades de contacto y navegación, y medición de interacciones mediante Google Analytics.</p>
-        
+        <p>Plataforma web Villa Mitre, que centraliza la oferta local mediante un buscador global para descubrir comercios, profesionales, servicios, emprendimientos y actividades en un solo lugar. Implementé una interfaz responsive, búsqueda dinámica, funcionalidades de contacto y seguimiento de interacciones con Google Analytics.</p>
         <ul class="project-features">
-          <li>Responsive</li>
-          <li>Google Analytics</li>
           <li>JavaScript</li>
+          <li>Tailwind CSS</li>
+          <li>Google Analytics</li>
         </ul>
 
         <a href="https://comercios-villamitre.netlify.app/"
            target="_blank"
            rel="noopener noreferrer"
            class="btn-link">
-          Visitar sitio →
+          Visitar sitio 
         </a>
+      
+
+      <a href="https://github.com/MagdalenaAyude/portal-comercios-villa-mitre"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-github"
+    aria-label="Ver código de Villa Mitre en GitHub">
+
+    <i class="fa-brands fa-github" aria-hidden="true"></i>
+    Ver código
+    </a>
       </div>
 
     </article>
@@ -138,8 +161,18 @@
               <li>UX/UI</li>
               <li>JavaScript</li>
             </ul>
-            <a href="https://turnosbahia2026.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn-link">Visitar sitio →</a>
-          </div>
+            <a href="https://turnosbahia2026.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn-link">Visitar sitio</a>
+          
+          <a href="https://github.com/MagdalenaAyude/TurnosB"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-github"
+          aria-label="Ver código de turnos ya en GitHub">
+
+        <i class="fa-brands fa-github" aria-hidden="true"></i>
+        Ver código
+        </a>
+      </div>
         </article>
 
         <article class="project">
@@ -156,7 +189,17 @@
             <li>JavaScript</li>
             <li>Responsive</li>
             </ul>
-            <a href="https://raw-strength-bahia.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn-link">Visitar sitio →</a>
+            <a href="https://raw-strength-bahia.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn-link">Visitar sitio</a>
+          
+          <a href="https://github.com/MagdalenaAyude/raw-strength"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-github"
+        aria-label="Ver código de Raw M.A.S en GitHub">
+
+      <i class="fa-brands fa-github" aria-hidden="true"></i>
+      Ver código
+      </a>
           </div>
         </article>
 
@@ -175,8 +218,17 @@
               <li>Carrito dinámico</li>
               <li>Pedidos por WhatsApp</li>
             </ul>
-            <a href="https://flordesol-magdalena.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn-link">Visitar sitio →</a>
-          </div>
+            <a href="https://flordesol-magdalena.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn-link">Visitar sitio </a>
+          
+        <a href="https://github.com/MagdalenaAyude/flor-de-sol"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-github"
+        aria-label="Ver código de flor de sol en GitHub">
+
+        <i class="fa-brands fa-github" aria-hidden="true"></i>
+      Ver código
+      </a>
         </article>
       </div>
     </section>
@@ -203,6 +255,11 @@
           <img src="./assets/linkedin.png" alt="Icono de LinkedIn">
           <span>LinkedIn</span>
         </a>
+
+        <a href="https://github.com/MagdalenaAyude" target="_blank" class="contact-button" rel="noopener noreferrer">
+          <img src="./assets/github.png" alt="Icono de GitHub">
+          <span>GitHub</span>
+        </a>
       </div>
     </section>
   </main>
@@ -210,6 +267,7 @@
   <footer class="footer">
     <small>© 2026 Magdalena Daniela Ayude · Frontend Developer</small>
   </footer>
-
+  <script src="script.js"></script>
+ 
 </body>
 </html>
